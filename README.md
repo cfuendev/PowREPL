@@ -12,6 +12,8 @@ This project is a simple REPL I built with the goal of recreating the experience
 
 - Feb 18, 2023: PowREPL v0.1.0, pretty unstable.
 
+  - Feb 19, 2023: PowREPL v0.1.1: Fix [Custom operators crashing the interpreter](#1).
+
 ### Roadmap
 
 - [x] E/EXP/EEX/Calculator Scientific Notation
@@ -26,14 +28,4 @@ This project is a simple REPL I built with the goal of recreating the experience
 
 ### Known Issues
 
-Custom operators are prematurely evaluated when simplifying input
-```plaintext
-PowREPL> (5 %? 10) * 10
-
-...
-
-File "<string>", line 1
-    (5 %? 10)
-        ^
-SyntaxError: invalid syntax
-```
+None at the moment

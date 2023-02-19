@@ -21,7 +21,7 @@ def evalAndReplaceParensDelExpr(expression):
                         parensDelExpr[1:len(parensDelExpr)-1]
                     )
                 )
-            evaluated = eval(parensDelExpr)
+            evaluated = eval(replaceWhatPercentage(replacePercentageOf(parensDelExpr)))
             evaluableExpression = evaluableExpression.replace(
                 parensDelExpr,
                 str(evaluated)
