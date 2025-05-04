@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap');
+
+:root {
+  font-size: 30px;
+  color: white;
+  height: 100%;
+}
+
+body {
+  background-color: #00651C;
+  margin: 50px;
+  font-family: Inter;
+  min-width: 315px;
+  height: calc(100% - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+body > #History-Future > *,
+body > #Present,
+body > #History-Past > *{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 13vh;
+  padding: 0 50px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.Icon {
+  height: 0.5vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 25px 50px;
+  background-size: contain;
+}
+
+input[type="text"] {
+  font-family: Inter;
+  background: none;
+  border: solid white 3px;
+  border-radius: 10px;
+  height: 70%;
+  width: 80%;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  outline: none;
+  transition: all 100ms ease-in-out;
+}
+
+input[type="text"]:focus {
+  outline: 1.5px solid white;
+  transition: all 100ms ease-in-out;
+}
+
+::placeholder {
+  color: white;
+  opacity: 10%;
+}
+
+#History-Future, #History-Past {
+  display: flex;
+  flex-direction: column;
+}
+
+.Result {
+  position: absolute;
+  right: 0;
+}
+
+.Icon#Up {
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" width="24" height="24" viewBox="0 0 24 24"%3E%3Cpath fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v14m6-8l-6-6m-6 6l6-6"%2F%3E%3C%2Fsvg%3E');
+}
+
+.Icon#Down {
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" width="24" height="24" viewBox="0 0 24 24"%3E%3Cpath fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v14m6-6l-6 6m-6-6l6 6"%2F%3E%3C%2Fsvg%3E');
+}
