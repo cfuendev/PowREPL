@@ -10,9 +10,13 @@ This project is a simple REPL I built with the goal of recreating the experience
 
 ### Changelog
 
-- Feb 18, 2023: PowREPL v0.1.0, pretty unstable.
+- May 11, 2025: PowREPL v0.2.0: Flask/Jinja Frontend
 
-  - Feb 19, 2023: PowREPL v0.1.1: Fix [Custom operators crashing the interpreter](#1).
+  - May 4, 2025: PowREPL v0.2.1: Add syntax checks to avoid arbitrary code execution
+
+- Feb 18, 2023: PowREPL v0.1.0, pretty unstable
+
+  - Feb 19, 2023: PowREPL v0.1.1: Fix [Custom operators crashing the interpreter](#1)
 
 ### Roadmap
 
