@@ -42,6 +42,7 @@ def replaceWhatPercentage(expression):
     else: return expression
     
 def replacePercentageOf(expression):
+    print(f'Expression: {expression}')
     return expression.replace("%>", "*0.01*")
     
 def evaluatePowREPL(expression):
